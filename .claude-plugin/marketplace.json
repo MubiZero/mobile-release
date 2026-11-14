@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mobile-release",
+  "owner": {
+    "name": "MubiZero",
+    "url": "https://github.com/MubiZero"
+  },
+  "metadata": {
+    "description": "Skills by MubiZero for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "mobile-release",
+      "source": ".",
+      "description": "Flutter companion to runway for the App Store/Play part of a release: versioning, signing, obfuscated builds, store review requirements, staged rollout.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "homepage": "https://github.com/MubiZero/mobile-release",
+      "category": "release",
+      "keywords": ["flutter", "mobile", "app-store", "google-play", "release"]
+    }
+  ]
+}
